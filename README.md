@@ -8,24 +8,27 @@
 </div>
 
 ## 📖 Descripción
-AYDS25-SongInfo es una aplicación Android desarrollada en Kotlin que permite buscar y obtener información detallada sobre canciones. La aplicación utiliza arquitectura modular con el patrón Observer para la comunicación entre componentes.
+AYDS25-SongInfo es una aplicación móvil Android desarrollada en Kotlin que permite buscar y obtener información detallada sobre canciones. El proyecto está enfocado en la aplicación de **principios SOLID** y **patrones de arquitectura**. Integra y consume las APIs de **LastFM** y **Spotify** para obtener información musical completa. La aplicación utiliza arquitectura modular con el patrón Observer para la comunicación entre componentes.
 
 ## ✨ Características
-- Búsqueda de información de canciones
-- Integración con APIs externas para obtener datos musicales
-- Almacenamiento local con Room Database
-- Carga de imágenes con Picasso
-- Arquitectura modular con patrón Observer
-- Interfaz de usuario moderna con Material Design
+- 🎵 **Búsqueda de información de canciones** a través de múltiples fuentes
+- 🌐 **Integración con APIs de LastFM y Spotify** para datos musicales completos
+- 💾 **Almacenamiento local con Room Database** para persistencia offline
+- 🖼️ **Carga de imágenes con Picasso** para covers y artwork
+- 🏗️ **Arquitectura modular con patrón Observer** siguiendo principios SOLID
+- 🎨 **Interfaz de usuario moderna** con Material Design
+- 📱 **Diseño responsive** adaptado a diferentes tamaños de pantalla
 
 ## 🛠️ Tecnologías Utilizadas
 - **🎯 Lenguaje:** Kotlin
 - **📱 Framework:** Android SDK
 - **💾 Base de datos:** Room Database
 - **🌐 Networking:** Retrofit + Gson
+- **🎼 APIs:** LastFM API, Spotify API
 - **🖼️ Imágenes:** Picasso
-- **🏗️ Arquitectura:** Observer Pattern
+- **🏗️ Arquitectura:** Observer Pattern, Principios SOLID
 - **🧪 Testing:** JUnit, MockK
+- **🎨 UI:** Material Design Components
 
 ## Estructura del Proyecto
 ```
